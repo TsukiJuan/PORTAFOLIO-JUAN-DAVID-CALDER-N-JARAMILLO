@@ -7,12 +7,14 @@ import Experiencie from '../components/Experiencie.astro'
 import BriefCase from '../components/BriefCase.astro';
 import LeetCodeicon  from '../components/leetCode.astro';
 import Correo from '../components/Correo.astro';
+import Avatar from '../components/Avatar.astro';
 ---
 
 <Layout title="Porfolio de Juan David Calderón - Desarollador y programador web">
+
 	<main>
 		<section class="w-full lg:w-[740px] mx-auto py-44 pb-10">
-		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">Hey, I'm Juan David Calderón 
+		<h1 class=" text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">Hey, I'm Juan David Calderón 
 			<div class="flex justify-center items-center"><Badge>Software_Student</Badge></div> </h1>
 		<h2 class="text-2xl text-wrap"> <span class="text-purple-200/90">Web Designer </span>and a true lover of <span class="text-blue-200/90"> Maths
 			</span></h2>
@@ -24,18 +26,19 @@ import Correo from '../components/Correo.astro';
 						<GitHub/ class=" w-12 h-8 rounder-full border border-white/10 flex justify-center items-center gap-x-2 py-2 px-1">
 					</a>
 					<p class="text-blue-200/90">GitHub</p>
+					
 				</li>
 
 				<li>
 					<a target="_blank" href="https://leetcode.com/u/tsukijuan/">
 					<LeetCodeicon class=" w-12 h-8 rounder-full border border-white/10 flex justify-center items-center gap-x-2 py-2 px-1 "/>
-					</a>
 					<p class="text-blue-200/90">LeetCode</p>
+					</a>
+					
 				</li>
                  <li>
 					<Correo class=" w-12 h-8 rounder-full border border-white/10 flex justify-center items-center gap-x-2 py-2 px-1 "/>
-					<p class="text-blue-200/90">juan34calderon@gmail.com</p>
-
+					<p class="text-blue-200/90">Undefined</p>
 				</li>
 		</ul>
 	</nav>
@@ -47,5 +50,9 @@ import Correo from '../components/Correo.astro';
 	</h2>
 	<Experiencie/>
 	</section>
+
+<section>
+	
+    </section>
 	</main>
 </Layout>
